@@ -1,0 +1,131 @@
+@font-face {
+    font-family: "Manrope-SemiBold";
+    src: url("./fonts/Manrope-SemiBold.ttf");
+}
+
+@font-face {
+    font-family: "Manrope-Light";
+    src: url("./fonts/Manrope-Light.ttf");
+}
+
+@font-face {
+    font-family: "Manrope-Regular";
+    src: url("./fonts/Manrope-Regular.ttf");
+}
+
+@font-face {
+    font-family: "Manrope-Medium";
+    src: url("./fonts/Manrope-Medium.ttf");
+}
+
+body {
+    margin: 0;
+    background-color: #0e0e0e;
+    line-height: 1.35;
+}
+
+.site-header {
+    width: 90%;
+    max-width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    padding: 4px 0;
+}
+
+.main-nav,
+.header-contacts {
+    flex: 1;
+    min-width: 0;
+}
+
+.main-nav a,
+.phone-details a {
+    color: #fff;
+    text-decoration: none;
+    font-family: "Manrope-Regular", sans-serif;
+}
+
+.main-nav a {
+    display: inline-block;
+    margin: 4px 16px 4px 0;
+    font-size: 16px;
+}
+
+.main-nav a:last-child {
+    margin-right: 0;
+}
+
+.brand img {
+    display: block;
+    width: 67px;
+    height: 73px;
+}
+
+.header-contacts {
+    text-align: right;
+}
+
+.phone,
+.phone-details {
+    display: inline-block;
+    max-width: 100%;
+    vertical-align: middle;
+}
+
+.phone {
+    margin: 4px 6px 4px 0;
+    text-align: left;
+}
+
+.phone-icon {
+    width: 26px;
+    height: 26px;
+    margin-right: 6px;
+    vertical-align: middle;
+}
+
+.phone-details a {
+    font-size: 20px;
+    line-height: 1.1;
+}
+
+.phone-details p {
+    margin: 4px 0 0;
+    color: rgba(255, 255, 255, .6);
+    font-family: "Manrope-Regular", sans-serif;
+    font-size: 13px;
+}
+
+.button-outline {
+    display: inline-block;
+    padding: 13px 10px;
+    margin: 4px 0;
+    border: 1px solid #3c3c3c;
+    background-color: transparent;
+    cursor: pointer;
+    border-radius: 4px;
+    color: #fff;
+    font-family: "Manrope-SemiBold", sans-serif;
+    font-size: 16px;
+    vertical-align: middle;
+}
+
+.main-nav a:hover,
+.phone-details a:hover {
+    color: #d4ae88;
+}
+
+.button-outline:hover {
+    border-color: #d4ae88;
+    background-color: #2b2119;
+}
+
+.main-nav a:focus-visible,
+.phone-details a:focus-visible,
+.brand:focus-visible,
+.button-outline:focus-visible {
+    outline: 2px solid #d4ae88;
+    outline-offset: 2px;
+}
