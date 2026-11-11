@@ -7,29 +7,75 @@
     <title>Феникс Авто</title>
 </head>
 <body>
-    <header class="site-header">
-        <nav class="main-nav" aria-label="Основная навигация">
-            <a href="#">Автопарк</a>
-            <a href="#">Условия</a>
-            <a href="#">О нас</a>
-            <a href="#">Контакты</a>
-            <a href="#">Блог</a>
-        </nav>
+    <div class="header-banner">
+        <header class="site-header">
+            <nav class="main-nav" aria-label="Основная навигация">
+                <a href="#">Автопарк</a>
+                <a href="#">Условия</a>
+                <a href="#">О нас</a>
+                <a href="#">Контакты</a>
+                <a href="#">Блог</a>
+            </nav>
 
-        <a class="brand" href="#" aria-label="Феникс Авто — главная">
-            <img src="./images/logo-header.png" alt="">
-        </a>
+            <a class="brand" href="#" aria-label="Феникс Авто — главная">
+                <img src="./images/logo-header.png" alt="">
+            </a>
 
-        <div class="header-contacts" id="contacts">
-            <div class="phone">
-                <img class="phone-icon" src="./images/icon-phone.svg" alt="">
-                <div class="phone-details">
-                    <a href="tel:+79853067999">+7 985 306-79-99</a>
-                    <p>Ежедневно с 9:00 до 21:00</p>
+            <div class="header-contacts" id="contacts">
+                <div class="phone">
+                    <img class="phone-icon" src="./images/icon-phone.svg" alt="">
+                    <div class="phone-details">
+                        <a href="tel:+79853067999">+7 985 306-79-99</a>
+                        <p>Ежедневно с 9:00 до 21:00</p>
+                    </div>
                 </div>
+                <button class="button-outline" type="button" onclick="window.location.href = 'tel:+79853067999'">Заказать звонок</button>
             </div>
-            <button class="button-outline" type="button" onclick="window.location.href = 'tel:+79853067999'">Заказать звонок</button>
-        </div>
-    </header>
+        </header>
+        <section class="banner">
+            <p class="name-banner">Аренда авто <br> премиум-класса <br> в Москве</p>
+            <p class="name1-banner">Идеальный автомобиль для тех, кто ценит <br> комфорт, статус и безупречный сервис</p>
+            <div class="button-container">
+                <button class="btn-primary">
+                    Выбрать автомобиль
+                    <svg class="icon-arrow" viewBox="0 0 24 24" width="24" height="24" >
+                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                    </svg>
+                </button>
+
+                <button class="btn-secondary">
+                    <div class="play-icon">
+                    <svg viewBox="0 0 24 24" width="20" height="20">
+                        <path d="M8 5v14l11-7z" fill="currentColor"/>
+                    </svg>
+                    </div>
+                    Смотреть видео
+                </button>
+            </div>
+        </section>
+        <section class="blok1">
+            <div class="name-blok1">
+                <p class="text-name-blok1">Почему выбирают нас</p>
+                <p class="text1-name-blok1">Ваша уверенность</p>
+            </div>
+            <p class="text1-name-blok1">- наша работа</p>
+            <section class="conditions">
+                <div class="blok1-condition">
+                    <p class="name-1blok-condition">Идеальное техническое состояние</p>
+                    <p class="text-1blok-condition">Каждое авто проходит строгий контроль перед выдачей.</p>
+                </div>
+                <div class="blok2-condition">
+                    <p class="name-2blok-condition">Гибкие условия аренды без скрытых платежей</p>
+                    <p class="text-2blok-condition">Прозрачные тарифы как для часовой, так и для долгосрочной аренды.</p>
+                </div>
+                <div class="blok3-condition">
+                    <p class="name-3blok-condition">Полная страховка КАСКО</p>
+                    <p class="text-3blok-condition">Ваша безопасность и спокойствие — наш главный приоритет.</p>
+                </div>
+            </section>
+
+            </div>
+        </section>
+    </div>
 </body>
 </html>
