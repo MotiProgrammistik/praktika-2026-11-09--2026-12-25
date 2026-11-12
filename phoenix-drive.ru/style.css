@@ -280,9 +280,24 @@ body {
     gap: 40px;
     color: #FFFFFF;
 }
+.name-blok2{
+    width: 580px;
+    margin-top: 120px;
+    font-family: "Manrope-Light";
+    font-weight: 300;
+    font-size: 60px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
 .cards1-blok2{
     display: flex;
     gap: 40px;
+    margin-bottom: 0px;
+}
+.cards2-blok2{
+    display: flex;
+    gap: 40px;
+    margin-top: 50px;
 }
 .name-1blok-condition{
     margin-bottom: 0px;
@@ -345,7 +360,6 @@ body {
     color: rgba(255, 255, 255, 0.6);
 }
 
-/* Завершить стили блока рекомендуемых автомобилей. */
 .img-card-blok2{
     width: 360px;
     height: 250px;
@@ -380,7 +394,7 @@ body {
     line-height: 110%;
     color: #FFFFFF;
 }
-/*----------------------------------------------------------------*/
+/*-------------------------- HOVER на блоках --------------------------------------*/
 .card1-blok2{
     transition: transform 0.3s ease;
     cursor: pointer; 
