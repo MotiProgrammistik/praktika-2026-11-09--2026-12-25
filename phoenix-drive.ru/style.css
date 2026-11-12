@@ -20,16 +20,17 @@
 
 body {
     margin: 0;
-    background-color: #0e0e0e;
+    background-color: #0C0C0B;
     line-height: 1.35;
 }
 .header-banner{
-    margin: 0;
+    margin: auto;
     padding: 0;
     width: 1400px;
     height: 713px;
     color: #ffffff;
     background-image: url("./images/banner.jpg");
+    margin-bottom: 0px;
 }
 .site-header {
     width: 90%;
@@ -140,7 +141,7 @@ body {
     margin-left: 120px;
     width: 576px;
     height: 390px;
-    margin-bottom: 0;
+
 }
 .name-banner{
     color: #ffffff;
@@ -227,7 +228,180 @@ body {
 }
 
 .blok1{
-    margin-top: 91px;
+    top: 91px;
+    margin: auto;
     width: 1160px;
     height: 345px;
 }
+.name-blok1{
+    display: flex;
+}
+.text-name-blok1{
+    margin: 0;
+    margin-top: 5px;
+    width: 190px;
+    height: 21px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    text-transform: uppercase; /*верхний регистр*/
+    color: rgba(255, 255, 255, 0.6);
+}
+.text1-name-blok1{
+    margin: 0;
+    margin-left: 210px;
+    width: 612px;
+    height: 66px;
+    font-family: "Manrope-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
+.text1-name-blok11{
+    width: 484px;
+    height: 66px;
+    margin-top: 4px;
+    margin-left: 676px;
+    margin-bottom: 0px;
+    font-family: "Manrope-Light";
+    font-style: normal;
+    font-weight: 300;
+    font-size: 70px;
+    line-height: 95%;
+    color: #FFFFFF;
+}
+.conditions{
+    margin-top: 60px;
+    display: flex;
+    gap: 40px;
+    color: #FFFFFF;
+}
+.cards1-blok2{
+    display: flex;
+    gap: 40px;
+}
+.name-1blok-condition{
+    margin-bottom: 0px;
+    width: 360px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.name-2blok-condition{
+    margin-bottom: 0px;
+    width: 360px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.name-3blok-condition{
+    margin-bottom: 0px;
+    width: 360px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 30px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.text-1blok-condition{
+    margin-top: 20px;
+    width: 200px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.text-2blok-condition{
+    margin-top: 20px;
+    width: 200px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.6);
+}
+.text-3blok-condition{
+    margin-top: 20px;
+    width: 200px;
+    font-family: "Manrope-Regular";
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+    color: rgba(255, 255, 255, 0.6);
+}
+
+/* TODO: Завершить стили блока рекомендуемых автомобилей. */
+.img-card-blok2{
+    width: 360px;
+    height: 250px;
+    border-radius: 5px;
+}
+.name-text-card-blok2{
+    margin: 0;
+    width: 360px;
+    margin-top: 20px;
+    font-family: "Manrope-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+.name2-text-card-blok2{
+    margin-top: 10px;
+    margin: 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Manrope-Regular";
+    width: 360px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 130%;
+}
+.buy-text-blok2{
+    width: 360px;
+    margin-top: 20px;
+    font-family: "Manrope-Regular";
+    font-weight: 400;
+    font-size: 24px;
+    line-height: 110%;
+    color: #FFFFFF;
+}
+/*----------------------------------------------------------------*/
+.card1-blok2{
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+.card1-blok2:hover {
+    transform: scale(1.02); 
+}
+
+.card2-blok2{
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+.card2-blok2:hover {
+    transform: scale(1.02); 
+}
+
+.card3-blok2{
+    transition: transform 0.3s ease;
+    cursor: pointer; 
+}
+.card3-blok2:hover {
+    transform: scale(1.02); 
+}
+/*----------------------------------------------------------------*/
