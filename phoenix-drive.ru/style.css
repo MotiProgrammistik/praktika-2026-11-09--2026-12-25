@@ -280,6 +280,10 @@ body {
     gap: 40px;
     color: #FFFFFF;
 }
+.blok2{
+    width: 1160px;
+    margin: auto;
+}
 .name-blok2{
     width: 580px;
     margin-top: 120px;
@@ -386,6 +390,7 @@ body {
     line-height: 130%;
 }
 .buy-text-blok2{
+    margin-bottom: 0;
     width: 360px;
     margin-top: 20px;
     font-family: "Manrope-Regular";
@@ -419,3 +424,63 @@ body {
     transform: scale(1.02); 
 }
 /*----------------------------------------------------------------*/
+
+.blok3{
+    width: 1400px;
+    margin: 160px auto 0;
+}
+.name-blok3,
+.name1-blok3,
+.name2-blok3{
+    margin: 0;
+    color: #FFFFFF;
+    font-family: "Manrope-Regular";
+    font-size: 70px;
+    line-height: 66px;
+    white-space: nowrap;
+}
+.name-blok3{
+    margin-left: 520px;
+}
+.name1-blok3{
+    margin-left: 629px;
+}
+.name2-blok3{
+    margin-left: 497px;
+}
+.album1{
+    margin-top: 60px;
+}
+.album1,
+.album2{
+    display: flex;
+    gap: 12px;
+}
+.album2{
+    margin-top: 12px;
+}
+.photos2-blok3{
+    margin-top: 12px;
+}
+.photo-blok3{
+    width: 341px;
+    height: 383px;
+    background-size: cover;
+    background-position: center bottom;
+}
+.photo-shadow-blok3{
+    box-shadow: inset 0 55px 55px -35px rgba(0, 0, 0, 0.3);
+}
+.photo-916-blok3{
+    background-image: url("./images/album-photo1.png");
+}
+.photo-918-blok3{
+    background-image: url("./images/album-photo4.png");
+}
+.photo-919-blok3{
+    background-image: url("./images/album-photo2.jpg");
+    background-position: center 67%;
+}
+.photo-920-blok3{
+    background-image: url("./images/album-photo3.png");
+}
