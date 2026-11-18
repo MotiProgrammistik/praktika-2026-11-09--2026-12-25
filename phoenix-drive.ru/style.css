@@ -23,19 +23,30 @@ body {
     background-color: #0C0C0B;
     line-height: 1.35;
 }
-.header-banner{
-    margin: auto;
-    padding: 0;
+.container{
+    width: 1160px;
+    margin: 0 auto;
+}
+.container-wide{
     width: 1400px;
-    height: 713px;
+}
+.container-clients{
+    width: 1280px;
+}
+.container-extra{
+    width: 1161px;
+}
+.container-fit{
+    max-width: 100%;
+}
+.header-banner{
+    padding: 0;
     color: #ffffff;
     background-image: url("./images/banner.jpg");
     margin-bottom: 0px;
+    min-height: 713px;
 }
-.site-header {
-    width: 90%;
-    max-width: 1160px;
-    margin: 0 auto;
+.header-content {
     display: flex;
     align-items: center;
     gap: 8px;
@@ -137,27 +148,22 @@ body {
     outline: 2px solid #d4ae88;
     outline-offset: 2px;
 }
-.banner{
-    margin-left: 120px;
+.banner-content{
     width: 576px;
-    height: 390px;
-
 }
 .name-banner{
     color: #ffffff;
     font-family: "Manrope-Light";
     font-size: 70px;
     width: 576px;
-    height: 198px;
     line-height: 1.0; 
     margin-bottom: 0px;
 }
 .name1-banner{
     width: 340px;
-    height: 42px;
     font-family: "Manrope-Regular";
     font-size: 16px;
-    margin-top: 30px;
+    margin-top: 18px;
     margin-bottom: 0;
     color: rgba(255, 255, 255, 0.6);
 }
@@ -165,7 +171,7 @@ body {
     display: flex;
     align-items: center; 
     gap: 32px;           
-    padding-top: 60px;
+    padding-top: 58.8px;
 }
 
 .btn-primary, .btn-secondary {
@@ -227,22 +233,16 @@ body {
     border-color: #d4ae88c9;
 }
 
-/*--------------------------blok1--------------------------------------*/
+/*--------------------------blok1-benefits--------------------------------------*/
 
-.blok1{
-    top: 91px;
-    margin: auto;
-    width: 1160px;
-    height: 345px;
-}
 .name-blok1{
     display: flex;
+    align-items: flex-start;
 }
 .text-name-blok1{
     margin: 0;
     margin-top: 5px;
     width: 190px;
-    height: 21px;
     font-family: "Manrope-Regular";
     font-style: normal;
     font-weight: 400;
@@ -255,7 +255,6 @@ body {
     margin: 0;
     margin-left: 210px;
     width: 612px;
-    height: 66px;
     font-family: "Manrope-Light";
     font-style: normal;
     font-weight: 300;
@@ -265,7 +264,6 @@ body {
 }
 .text1-name-blok11{
     width: 484px;
-    height: 66px;
     margin-top: 4px;
     margin-left: 676px;
     margin-bottom: 0px;
@@ -277,22 +275,21 @@ body {
     color: #FFFFFF;
 }
 .conditions{
-    margin-top: 60px;
+    margin-top: 59px;
     display: flex;
     gap: 40px;
     color: #FFFFFF;
 }
 
-/*--------------------------blok2--------------------------------------*/
+/*--------------------------blok2-cars--------------------------------------*/
 
 
-.blok2{
-    width: 1160px;
-    margin: auto;
+.blok2-cars{
+    margin-top: 75px;
 }
 .name-blok2{
     width: 580px;
-    margin-top: 120px;
+    margin-top: 0;
     font-family: "Manrope-Light";
     font-weight: 300;
     font-size: 60px;
@@ -427,11 +424,10 @@ body {
     transform: scale(1.02); 
 }
 
-/*---------------------------blok3-------------------------------------*/
+/*---------------------------blok3-gallery-------------------------------------*/
 
-.blok3{
-    width: 1400px;
-    margin: 160px auto 0;
+.blok3-gallery{
+    margin-top: 160px;
 }
 .name-blok3,
 .name1-blok3,
@@ -489,11 +485,10 @@ body {
     background-image: url("./images/album-photo3.png");
 }
 
-/*----------------------------------blok4-----------------------------------*/
+/*----------------------------------blok4-clients-----------------------------------*/
 
-.blok4{
-    width: 1280px;
-    margin: 160px auto 0;
+.blok4-clients{
+    margin-top: 160px;
 }
 .name-blok4{
     margin: 0;
@@ -554,15 +549,13 @@ body {
     background-repeat: no-repeat;
 }
 
-/*---------------------------blok5------------------------------------*/
+/*---------------------------blok5-partners------------------------------------*/
 
-.blok5{
-    width: 100%;
-    max-width: 1161px;
-    margin: 160px auto 0;
+.blok5-partners{
+    margin-top: 160px;
     margin-bottom: 0px;
 }
-.blok5 .title{
+.blok5-partners .title{
     margin: 0 0 50px;
     font-family: "Manrope-Regular";
     font-size: 16px;
@@ -570,12 +563,12 @@ body {
     color: rgba(255, 255, 255, 0.6);
     text-transform: uppercase;
 }
-.blok5 .cards{
+.blok5-partners .cards{
     display: flex;
     align-items: center;
     justify-content: space-between;
 }
-.blok5 .cardp{
+.blok5-partners .cardp{
     width: 230px;
     min-width: 0;
     height: 100px;
@@ -584,33 +577,34 @@ body {
     justify-content: center;
     overflow: hidden;
 }
-.blok5 .logo{
+.blok5-partners .logo{
     display: block;
     max-width: 100%;
     height: auto;
 }
-.blok5 .turkish{
+.blok5-partners .turkish{
     width: 201px;
 }
-.blok5 .maxima{
+.blok5-partners .maxima{
     width: 136px;
 }
-.blok5 .sheikh{
+.blok5-partners .sheikh{
     width: 148px;
 }
-.blok5 .mercedes{
+.blok5-partners .mercedes{
     width: 230px;
 }
 
-/*------------------------blok6------------------------------------*/
+/*------------------------blok6-managers------------------------------------*/
 
-.blok6{
-    width: 1161px;
-    margin: 160px auto 0px;
-    display: flex;
-    gap: 30px;
+.blok6-managers{
+    margin-top: 160px;
     color: #ffffff;
     font-family: "Manrope-Regular";
+}
+.managers-content{
+    display: flex;
+    gap: 30px;
 }
 .text-managers{
     width: 371px;

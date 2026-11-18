@@ -7,58 +7,65 @@
     <title>Феникс Авто</title>
 </head>
 <body>
-    <div class="header-banner">
+    <div class="header-banner container container-wide">
         <header class="site-header">
-            <nav class="main-nav" aria-label="Основная навигация">
-                <a href="#">Автопарк</a>
-                <a href="#">Условия</a>
-                <a href="#">О нас</a>
-                <a href="#">Контакты</a>
-                <a href="#">Блог</a>
-            </nav>
-            <a class="brand" href="#" aria-label="Феникс Авто — главная">
-                <img src="./images/logo-header.png" alt="">
-            </a>
-            <div class="header-contacts" id="contacts">
-                <div class="phone">
-                    <img class="phone-icon" src="./images/icon-phone.svg" alt="">
-                    <div class="phone-details">
-                        <a href="tel:+79853067999">+7 985 306-79-99</a>
-                        <p>Ежедневно с 9:00 до 21:00</p>
+            <div class="container header-content">
+                <nav class="main-nav" aria-label="Основная навигация">
+                    <a href="#">Автопарк</a>
+                    <a href="#">Условия</a>
+                    <a href="#">О нас</a>
+                    <a href="#">Контакты</a>
+                    <a href="#">Блог</a>
+                </nav>
+                <a class="brand" href="#" aria-label="Феникс Авто — главная">
+                    <img src="./images/logo-header.png" alt="">
+                </a>
+                <div class="header-contacts" id="contacts">
+                    <div class="phone">
+                        <img class="phone-icon" src="./images/icon-phone.svg" alt="">
+                        <div class="phone-details">
+                            <a href="tel:+79853067999">+7 985 306-79-99</a>
+                            <p>Ежедневно с 9:00 до 21:00</p>
+                        </div>
                     </div>
+                    <button class="button-outline" type="button" onclick="window.location.href = 'tel:+79853067999'">Заказать звонок</button>
                 </div>
-                <button class="button-outline" type="button" onclick="window.location.href = 'tel:+79853067999'">Заказать звонок</button>
             </div>
         </header>
         <section class="banner">
-            <p class="name-banner">Аренда авто <br> премиум-класса <br> в Москве</p>
-            <p class="name1-banner">Идеальный автомобиль для тех, кто ценит <br> комфорт, статус и безупречный сервис</p>
-            <div class="button-container">
-                <button class="btn-primary">
-                    Выбрать автомобиль
-                    <svg class="icon-arrow" viewBox="0 0 24 24" width="24" height="24" >
-                    <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
-                    </svg>
-                </button>
+            <div class="container">
+                <div class="banner-content">
+                    <p class="name-banner">Аренда авто <br> премиум-класса <br> в Москве</p>
+                    <p class="name1-banner">Идеальный автомобиль для тех, кто ценит <br> комфорт, статус и безупречный сервис</p>
+                    <div class="button-container">
+                        <button class="btn-primary">
+                            Выбрать автомобиль
+                            <svg class="icon-arrow" viewBox="0 0 24 24" width="24" height="24" >
+                                <path d="M5 12h14M12 5l7 7-7 7" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round" stroke-linejoin="round"/>
+                            </svg>
+                        </button>
 
-                <button class="btn-secondary">
-                    <div class="play-icon">
-                    <svg viewBox="0 0 24 24" width="20" height="20">
-                        <path d="M8 5v14l11-7z" fill="currentColor"/>
-                    </svg>
+                        <button class="btn-secondary">
+                            <div class="play-icon">
+                                <svg viewBox="0 0 24 24" width="20" height="20">
+                                    <path d="M8 5v14l11-7z" fill="currentColor"/>
+                                </svg>
+                            </div>
+                            Смотреть видео
+                        </button>
                     </div>
-                    Смотреть видео
-                </button>
+                </div>
             </div>
         </section>
     </div>
-    <section class="blok1">
+    <section class="blok1-benefits">
+        <div class="container">
             <div class="name-blok1">
                 <p class="text-name-blok1">Почему выбирают нас</p>
                 <p class="text1-name-blok1">Ваша уверенность</p>
             </div>
             <p class="text1-name-blok11">- наша работа</p>
-            <section class="conditions">
+            <div class="conditions">
                 <div class="blok1-condition">
                     <p class="name-1blok-condition">Идеальное техническое состояние</p>
                     <p class="text-1blok-condition">Каждое авто проходит строгий контроль перед выдачей.</p>
@@ -71,131 +78,141 @@
                     <p class="name-3blok-condition">Полная страховка КАСКО</p>
                     <p class="text-3blok-condition">Ваша безопасность и спокойствие — наш главный приоритет.</p>
                 </div>
-            </section>
+            </div>
+        </div>
     </section>
-    <section class="blok2">
-        <p class="name-blok2">Рекомендуемые автомобили</p>
-        <section class="cards1-blok2">
-            <div class="card1-blok2">
-                <img src="./images/Rectangle 913.png" alt="" class="img-card-blok2">
-                <p class="name-text-card-blok2">Mercedes-Benz G350d</p>
-                <p class="name2-text-card-blok2">2021. Автомат. Полный (4MATIC)</p>
-                <p class="buy-text-blok2">34 000 ₽</p>
+    <section class="blok2-cars">
+        <div class="container">
+            <p class="name-blok2">Рекомендуемые автомобили</p>
+            <div class="cards1-blok2">
+                <div class="card1-blok2">
+                    <img src="./images/Rectangle 913.png" alt="" class="img-card-blok2">
+                    <p class="name-text-card-blok2">Mercedes-Benz G350d</p>
+                    <p class="name2-text-card-blok2">2021. Автомат. Полный (4MATIC)</p>
+                    <p class="buy-text-blok2">34 000 ₽</p>
+                </div>
+                <div class="card2-blok2">
+                    <img src="./images/Rectangle 914.png" alt="" class="img-card-blok2">
+                    <p class="name-text-card-blok2">Porsche Cayenne Turbo</p>
+                    <p class="name2-text-card-blok2">2014. Автомат. Полный (4MATIC)</p>
+                    <p class="buy-text-blok2">12 000 ₽</p>
+                </div>
+                <div class="card3-blok2">
+                    <img src="./images/Rectangle 915.png" alt="" class="img-card-blok2">
+                    <p class="name-text-card-blok2">BMW X3</p>
+                    <p class="name2-text-card-blok2">2010. Автомат. Полный (xDrive)</p>
+                    <p class="buy-text-blok2">12 000 ₽</p>
+                </div>
             </div>
-            <div class="card2-blok2">
-                <img src="./images/Rectangle 914.png" alt="" class="img-card-blok2">
-                <p class="name-text-card-blok2">Porsche Cayenne Turbo</p>
-                <p class="name2-text-card-blok2">2014. Автомат. Полный (4MATIC)</p>
-                <p class="buy-text-blok2">12 000 ₽</p>
+            <div class="cards2-blok2">
+                <div class="card1-blok2">
+                    <img src="./images/Rectangle 913-1.png" alt="" class="img-card-blok2">
+                    <p class="name-text-card-blok2">BMW 530i M Sport+</p>
+                    <p class="name2-text-card-blok2">2021. Автомат. Полный (xDrive)</p>
+                    <p class="buy-text-blok2">9 000 ₽</p>
+                </div>
+                <div class="card2-blok2">
+                    <img src="./images/Rectangle 914-1.png" alt="" class="img-card-blok2">
+                    <p class="name-text-card-blok2">BMW X6 M50d</p>
+                    <p class="name2-text-card-blok2">2018. Автомат. Полный (xDrive)</p>
+                    <p class="buy-text-blok2">10 000 ₽</p>
+                </div>
+                <div class="card3-blok2">
+                    <img src="./images/Rectangle 915-1.png" alt="" class="img-card-blok2">
+                    <p class="name-text-card-blok2">MERCEDES-BENZ E-200 BLACK</p>
+                    <p class="name2-text-card-blok2">2020, Автомат. Полный (4MATIC)</p>
+                    <p class="buy-text-blok2">15 000 ₽</p>
+                </div>
             </div>
-            <div class="card3-blok2">
-                <img src="./images/Rectangle 915.png" alt="" class="img-card-blok2">
-                <p class="name-text-card-blok2">BMW X3</p>
-                <p class="name2-text-card-blok2">2010. Автомат. Полный (xDrive)</p>
-                <p class="buy-text-blok2">12 000 ₽</p>
-            </div>
-        </section>
-        <section class="cards2-blok2">
-            <div class="card1-blok2">
-                <img src="./images/Rectangle 913-1.png" alt="" class="img-card-blok2">
-                <p class="name-text-card-blok2">BMW 530i M Sport+</p>
-                <p class="name2-text-card-blok2">2021. Автомат. Полный (xDrive)</p>
-                <p class="buy-text-blok2">9 000 ₽</p>
-            </div>
-            <div class="card2-blok2">
-                <img src="./images/Rectangle 914-1.png" alt="" class="img-card-blok2">
-                <p class="name-text-card-blok2">BMW X6 M50d</p>
-                <p class="name2-text-card-blok2">2018. Автомат. Полный (xDrive)</p>
-                <p class="buy-text-blok2">10 000 ₽</p>
-            </div>
-            <div class="card3-blok2">
-                <img src="./images/Rectangle 915-1.png" alt="" class="img-card-blok2">
-                <p class="name-text-card-blok2">MERCEDES-BENZ E-200 BLACK</p>
-                <p class="name2-text-card-blok2">2020, Автомат. Полный (4MATIC)</p>
-                <p class="buy-text-blok2">15 000 ₽</p>
-            </div>
-        </section>
+        </div>
     </section>
-    <section class="blok3">
-        <p class="name-blok3">Наши автомобили</p>
-        <p class="name1-blok3">идеально подходят</p>
-        <p class="name2-blok3">для крутых фотосессий</p>
+    <section class="blok3-gallery">
+        <div class="container container-wide">
+            <p class="name-blok3">Наши автомобили</p>
+            <p class="name1-blok3">идеально подходят</p>
+            <p class="name2-blok3">для крутых фотосессий</p>
 
-        <section class="album1" aria-label="Первый ряд фотографий">
-            <div class="photo-blok3 photo-916-blok3 photo-shadow-blok3" role="img" aria-label="Фотосессия на белом кабриолете"></div>
-            <div class="photo-blok3 photo-919-blok3 photo-shadow-blok3" role="img" aria-label="Две модели рядом с чёрным Mercedes"></div>
-            <div class="photo-blok3 photo-920-blok3 photo-shadow-blok3" role="img" aria-label="Съёмка у белого кабриолета крупным планом"></div>
-            <div class="photo-blok3 photo-918-blok3 photo-shadow-blok3" role="img" aria-label="Серебристый Ford Mustang на мосту"></div>
-        </section>
-        <section class="album2" aria-label="Второй ряд фотографий">
-            <div class="photo-blok3 photo-919-blok3" aria-hidden="true"></div>
-            <div class="photo-blok3 photo-918-blok3" aria-hidden="true"></div>
-            <div class="photo-blok3 photo-916-blok3" aria-hidden="true"></div>
-            <div class="photo-blok3 photo-920-blok3" aria-hidden="true"></div>
-        </section>
-    </section>
-    <section class="blok4">
-        <p class="name-blok4">Почему они</p>
-        <div class="name-1blok4">
-            <p class="name1-blok4">доверяют нам?</p>
-            <p class="text-name-blok4">Среди наших клиентов — крупные блогеры,<br> предприниматели и знаменитости</p>
-        </div>
-        <section class="cards-bloggers">
-            <div class="blogger1"></div>
-            <div class="blogger2"></div>
-            <div class="blogger3"></div>
-        </section>
-    </section>
-    <section class="blok5" aria-label="Партнёры">
-        <p class="title">Партнёры</p>
-        <div class="cards">
-            <div class="card">
-                <img class="logo turkish" src="./images/turkish-airlines.png" alt="Turkish Airlines">
+            <div class="album1" aria-label="Первый ряд фотографий">
+                <div class="photo-blok3 photo-916-blok3 photo-shadow-blok3" role="img" aria-label="Фотосессия на белом кабриолете"></div>
+                <div class="photo-blok3 photo-919-blok3 photo-shadow-blok3" role="img" aria-label="Две модели рядом с чёрным Mercedes"></div>
+                <div class="photo-blok3 photo-920-blok3 photo-shadow-blok3" role="img" aria-label="Съёмка у белого кабриолета крупным планом"></div>
+                <div class="photo-blok3 photo-918-blok3 photo-shadow-blok3" role="img" aria-label="Серебристый Ford Mustang на мосту"></div>
             </div>
-            <img src="./images/Vector17.svg" alt="">
-            <div class="card">
-                <img class="logo maxima" src="./images/maxima-hotels.png" alt="Maxima Hotels">
-            </div>
-            <img src="./images/Vector17.svg" alt="">
-            <div class="card">
-                <img class="logo sheikh" src="./images/Image15.png" alt="Sheikh Avia">
-            </div>
-            <img src="./images/Vector17.svg" alt="">
-            <div class="card">
-                <img class="logo mercedes" src="./images/mercedes-benz.png" alt="Mercedes-Benz">
+            <div class="album2" aria-label="Второй ряд фотографий">
+                <div class="photo-blok3 photo-919-blok3" aria-hidden="true"></div>
+                <div class="photo-blok3 photo-918-blok3" aria-hidden="true"></div>
+                <div class="photo-blok3 photo-916-blok3" aria-hidden="true"></div>
+                <div class="photo-blok3 photo-920-blok3" aria-hidden="true"></div>
             </div>
         </div>
     </section>
-    <section class="blok6">
-        <section class="text-managers">
-            <p class="name-blok6">Наши<br>менеджеры</p>
-            <p class="name2-blok6">Профессионалы, которые найдут идеальное решение под ваши задачи</p>
-            <a class="btn-managers" href="tel:+79853067999">
-                Связаться с нами
-                <img src="./images/927.svg">
-            </a>
-        </section>
-        <section class="cards-managers">
-            <div class="manager">
-                <img class="photo" src="./images/andrey.png">
-                <p class="name">Андрей<br>Варшавский</p>
-                <a class="mail" href="mailto:support@mrentalvip.ru">support@mrentalvip.ru</a>
-                <a class="number" href="tel:+79853067999">+7(985) 306 79 99</a>
+    <section class="blok4-clients">
+        <div class="container container-clients">
+            <p class="name-blok4">Почему они</p>
+            <div class="name-1blok4">
+                <p class="name1-blok4">доверяют нам?</p>
+                <p class="text-name-blok4">Среди наших клиентов — крупные блогеры,<br> предприниматели и знаменитости</p>
             </div>
-            <div class="manager">
-                <img class="photo" src="./images/ekaterina.png">
-                <p class="name">Екатерина<br>Смирнова</p>
-                <a class="mail" href="mailto:info@mrentalvip.ru">info@mrentalvip.ru</a>
-                <a class="number" href="tel:+79853067999">+7(985) 306 79 99</a>
+            <div class="cards-bloggers">
+                <div class="blogger1"></div>
+                <div class="blogger2"></div>
+                <div class="blogger3"></div>
             </div>
-            <div class="manager">
-                <img class="photo" src="./images/ivan.png">
-                <p class="name">Иван<br>Кузнецов</p>
-                <a class="mail" href="mailto:ivan@mrentalvip.ru">ivan@mrentalvip.ru</a>
-                <a class="number" href="tel:+79853067999">+7(985) 306 79 99</a>
-            </div>
-        </section>
+        </div>
     </section>
-    <section></section>
+    <section class="blok5-partners" aria-label="Партнёры">
+        <div class="container container-extra container-fit">
+            <p class="title">Партнёры</p>
+            <div class="cards">
+                <div class="card">
+                    <img class="logo turkish" src="./images/turkish-airlines.png" alt="Turkish Airlines">
+                </div>
+                <img src="./images/Vector17.svg" alt="">
+                <div class="card">
+                    <img class="logo maxima" src="./images/maxima-hotels.png" alt="Maxima Hotels">
+                </div>
+                <img src="./images/Vector17.svg" alt="">
+                <div class="card">
+                    <img class="logo sheikh" src="./images/Image15.png" alt="Sheikh Avia">
+                </div>
+                <img src="./images/Vector17.svg" alt="">
+                <div class="card">
+                    <img class="logo mercedes" src="./images/mercedes-benz.png" alt="Mercedes-Benz">
+                </div>
+            </div>
+        </div>
+    </section>
+    <section class="blok6-managers">
+        <div class="container container-extra managers-content">
+            <div class="text-managers">
+                <p class="name-blok6">Наши<br>менеджеры</p>
+                <p class="name2-blok6">Профессионалы, которые найдут идеальное решение под ваши задачи</p>
+                <a class="btn-managers" href="tel:+79853067999">
+                    Связаться с нами
+                    <img src="./images/927.svg">
+                </a>
+            </div>
+            <div class="cards-managers">
+                <div class="manager">
+                    <img class="photo" src="./images/andrey.png">
+                    <p class="name">Андрей<br>Варшавский</p>
+                    <a class="mail" href="mailto:support@mrentalvip.ru">support@mrentalvip.ru</a>
+                    <a class="number" href="tel:+79853067999">+7(985) 306 79 99</a>
+                </div>
+                <div class="manager">
+                    <img class="photo" src="./images/ekaterina.png">
+                    <p class="name">Екатерина<br>Смирнова</p>
+                    <a class="mail" href="mailto:info@mrentalvip.ru">info@mrentalvip.ru</a>
+                    <a class="number" href="tel:+79853067999">+7(985) 306 79 99</a>
+                </div>
+                <div class="manager">
+                    <img class="photo" src="./images/ivan.png">
+                    <p class="name">Иван<br>Кузнецов</p>
+                    <a class="mail" href="mailto:ivan@mrentalvip.ru">ivan@mrentalvip.ru</a>
+                    <a class="number" href="tel:+79853067999">+7(985) 306 79 99</a>
+                </div>
+            </div>
+        </div>
+    </section>
 </body>
 </html>
