@@ -66,13 +66,22 @@ body {
     font-family: "Manrope-Regular", sans-serif;
 }
 
+.menu{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+.menu li{
+    display: inline;
+}
+
 .main-nav a {
     display: inline-block;
     margin: 4px 16px 4px 0;
     font-size: 16px;
 }
 
-.main-nav a:last-child {
+.main-nav li:last-child a {
     margin-right: 0;
 }
 
@@ -675,4 +684,93 @@ body {
     font-size: 20px;
     line-height: 110%;
     color: #ffffff;
+}
+
+/*------------------------blok7-request------------------------------------*/
+
+.blok7-request{
+    margin-top: 160px;
+}
+.request-content{
+    display: flex;
+    align-items: flex-start;
+    gap: 80px;
+}
+.request-text{
+    width: 579px;
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+.name-request{
+    width: 496px;
+    margin: 0;
+    color: #FFFFFF;
+    font-family: "Manrope-Light";
+    font-size: 60px;
+    line-height: 100%;
+}
+.text-request{
+    width: 238px;
+    margin: 41px 0 0;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Manrope-Regular";
+    font-size: 16px;
+    line-height: 130%;
+}
+.request-form{
+    width: 500px;
+    margin: 0;
+}
+.request-input{
+    display: block;
+    width: 460px;
+    margin: 0 0 24px;
+    padding: 15px 19px;
+    border: 1px solid rgba(255, 255, 255, 0.2);
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: "Manrope-Medium";
+    font-size: 16px;
+    line-height: 130%;
+}
+.request-input::placeholder{
+    color: rgba(255, 255, 255, 0.2);
+}
+.request-consent{
+    display: flex;
+    align-items: center;
+    gap: 12px;
+    margin-bottom: 24px;
+    color: rgba(255, 255, 255, 0.6);
+    font-family: "Manrope-Regular";
+    font-size: 12px;
+    line-height: 130%;
+    cursor: pointer;
+}
+.request-check{
+    width: 25px;
+    height: 25px;
+    margin: 0;
+    flex-shrink: 0;
+    accent-color: #b4a28d;
+    color-scheme: dark;
+}
+.request-submit{
+    width: 500px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 18px 23px;
+    border: 1px solid #b4a28d;
+    border-radius: 5px;
+    background-color: transparent;
+    color: #FFFFFF;
+    font-family: "Manrope-SemiBold";
+    font-size: 16px;
+    line-height: 130%;
+    cursor: pointer;
+}
+.request-submit:hover{
+    border-color: #d4ae88;
+    background-color: #2b2119;
 }
